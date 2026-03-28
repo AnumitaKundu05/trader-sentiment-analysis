@@ -1,13 +1,13 @@
-# 📊 Trader Behavior vs Market Sentiment Analysis
+#  Trader Behavior vs Market Sentiment Analysis
 
-## 📌 Overview
+##  Overview
 This project analyzes the relationship between **market sentiment (Fear vs Greed)** and **trader performance & behavior** using Hyperliquid trading data.
 
 The goal is to identify patterns that can inform **better trading strategies**.
 
 ---
 
-## ⚙️ Dataset
+##  Dataset
 Two datasets were used:
 
 1. **Market Sentiment Data**
@@ -18,7 +18,7 @@ Two datasets were used:
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 - Converted timestamps to proper datetime format
 - Normalized timestamps to daily level
 - Aggregated sentiment to one value per day
@@ -27,7 +27,7 @@ Two datasets were used:
 
 ---
 
-## 🧠 Feature Engineering
+##  Feature Engineering
 Created key metrics:
 - Profit/Loss (PnL)
 - Win/Loss indicator
@@ -39,13 +39,13 @@ Created key metrics:
 
 ---
 
-## 📈 Analysis
+##  Analysis
 
 ### 1. Performance vs Sentiment
 - **Greed → Higher profitability (~77.8)**
 - **Fear → Lower profitability (~50.0)**
 
-👉 Traders perform better during bullish conditions.
+ Traders perform better during bullish conditions.
 
 ---
 
@@ -74,7 +74,7 @@ Created key metrics:
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 1. Greed-driven markets produce higher profits  
 2. Fear increases trading activity (panic/overreaction)  
@@ -83,25 +83,25 @@ Created key metrics:
 
 ---
 
-## 🚀 Strategy Recommendations
+##  Strategy Recommendations
 
-### ✅ Strategy 1
+### Strategy 1
 During **Greed periods**, avoid overtrading and maintain disciplined position sizing to prevent losses due to overconfidence.
 
-### ✅ Strategy 2
+### Strategy 2
 During **Fear periods**, reduce trading frequency and avoid reactive decisions, as increased activity does not improve returns.
 
-### ✅ Strategy 3
+### Strategy 3
 Focus on **low-frequency, high-quality trades**, as casual traders consistently outperform frequent traders.
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 - Leverage data was not available, so leverage-based analysis was excluded.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Open the notebook (`.ipynb`)
 2. Run all cells sequentially
@@ -110,5 +110,5 @@ Focus on **low-frequency, high-quality trades**, as casual traders consistently 
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 This analysis shows that **market sentiment significantly influences trader behavior**, and disciplined trading strategies outperform reactive or high-frequency approaches.

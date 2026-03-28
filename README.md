@@ -106,6 +106,7 @@ Focus on **low-frequency, high-quality trades**, as casual traders consistently 
 1. Open the notebook (`.ipynb`)
 2. Run all cells sequentially
 3. Ensure datasets are in the same directory
+<img width="1162" height="837" alt="2trade" src="https://github.com/user-attachments/assets/fcb8a2a6-f4c8-409e-b707-7ae1d83c8648" />
 
 ---
 
